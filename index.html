@@ -1,0 +1,501 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+  </head> 
+  <body>
+    <a-scene>
+      <a-assets>
+        <img id="sky" crossorigin="anonymous" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Vassily_Kandinsky%2C_1926_-_Several_Circles%2C_Gugg_0910_25.jpg/1200px-Vassily_Kandinsky%2C_1926_-_Several_Circles%2C_Gugg_0910_25.jpg"> 
+
+        <audio 
+        id="background"
+        src="https://cdn.aframe.io/basic-guide/audio/backgroundnoise.wav"></audio>
+  
+      </a-assets>
+
+       <a-sky src="#sky"></a-sky>
+       <a-sound 
+       src="#background" 
+       allow="autoplay"
+       autoplay="true"></a-sound>
+
+     <a-light  
+     
+        intensity="1.5" 
+        position="0 10 10"></a-light>
+         <a-light  
+     type="point"
+        intensity="3" 
+        position="0 0 -10"></a-light>
+      <a-sphere 
+      color="#102ABB"
+      position="-0.5 3 -5"
+      opacity=0.9
+      radius=1
+      animation="property: object3D.position.y;
+          to: 3.05; 
+          dir: alternate; 
+          dur: 2000; 
+          loop: true"
+      ></a-sphere>
+
+      <a-sphere 
+      color="#CFE1E5"
+      position="-0.7 3.5 -7"
+      opacity=4
+      radius=1.5
+      animation="property: object3D.position.y;
+          to: 3.45; 
+          dir: alternate; 
+          dur: 2000; 
+          loop: true"
+      
+      ></a-sphere>
+
+      <a-sphere 
+      color="#070B0B"
+      position="-0.6 3 -4"
+      opacity=0.8
+      radius=0.5
+      animation="property: object3D.position.x;
+          to: -0.61; 
+          dir: alternate; 
+          dur: 2000; 
+          loop: true"
+      ></a-sphere>
+      <a-sphere 
+      color="#A95AF2"
+      position="-0.1 3 -3"
+      opacity=0.8
+      radius=0.2
+      animation="property: object3D.position.x;
+          to: -0.05; 
+          dir: alternate; 
+          dur: 2000; 
+          loop: true"
+      ></a-sphere>
+
+      <a-sphere 
+      color="#7AD6A3"
+      position="-0.1 2.4 -3"
+      opacity=0.8
+      radius=0.15
+      animation="property: object3D.position.z;
+          to: -3.2; 
+          dir: alternate; 
+          dur: 5000; 
+          loop: true"
+      ></a-sphere>
+
+      <a-sphere 
+      color="#40B1FF"
+      position="-0.35 2.3 -3"
+      opacity=0.4
+      radius=0.08
+      animation="property: object3D.position.y;
+          to: 2.4; 
+          dir: alternate; 
+          dur: 2000; 
+          loop: true"
+      ></a-sphere>
+
+      <a-sphere 
+      color="#C98119"
+      position="0 2.0 -3"
+      opacity=0.6
+      radius=0.2
+      animation="property: object3D.position.x;
+          to: -0.01; 
+          dir: alternate; 
+          dur: 2000; 
+          loop: true"
+      ></a-sphere>
+
+      <a-sphere 
+      color="#957F22"
+      position="-0.16 2.0 -2.8"
+      opacity=0.9
+      radius=0.15
+      animation="property: object3D.position.x;
+          to: -0.15; 
+          dir: alternate; 
+          dur: 2000; 
+          loop: true"
+      ></a-sphere>
+
+      <a-sphere 
+      color="#FA3CB0"
+      position="0.12 1.85 -2.5"
+      opacity=0.4
+      radius=0.08
+      animation="property: object3D.position.x;
+          to: 0.11; 
+          dir: alternate; 
+          dur: 2000; 
+          loop: true"
+      ></a-sphere>
+
+      <a-sphere 
+      color="#2584F0"
+      position="0 1.65 -2.5"
+      opacity=0.7
+      radius=0.14
+      animation="property: object3D.position.z;
+          to: -2.1; 
+          dir: alternate; 
+          dur: 20000; 
+          loop: true"
+      ></a-sphere>
+
+      <a-sphere 
+      color="#8393F0"
+      position="-0.4 1.79 -2.5"
+      opacity=0.7
+      radius=0.14
+      animation="property: object3D.position.x;
+          to: -0.39; 
+          dir: alternate; 
+          dur: 1000; 
+          loop: true"
+      ></a-sphere>
+
+      //cercle vertgauche
+      <a-sphere 
+      color="#144344"
+      position="0.35 2.6 -2.5"
+      opacity=0.7
+      radius=0.2
+      animation="property: object3D.position.x;
+          to: 0.345; 
+          dir: alternate; 
+          dur: 5000; 
+          loop: true"
+      ></a-sphere>
+
+      <a-sphere 
+      color="#040A10"
+      position="0.33 2.54 -2.3"
+      opacity=0.7
+      radius=0.05
+      animation="property: object3D.position.x;
+          to: 0.32; 
+          dir: alternate; 
+          dur: 20000; 
+          loop: true"
+      ></a-sphere>
+
+      <a-sphere 
+      color="#F5890C"
+      position="0.5 2.8 -2.3"
+      opacity=0.7
+      radius=0.05
+      animation="property: object3D.position.z;
+          to: -2.1; 
+          dir: alternate; 
+          dur: 9000; 
+          loop: true"
+      ></a-sphere>
+
+      <a-sphere 
+      color="#F5E059"
+      position="0.28 2.9 -2.3"
+      opacity=0.7
+      radius=0.09
+      animation="property: object3D.position.x;
+          to: 0.27; 
+          dir: alternate; 
+          dur: 2000; 
+          loop: true"
+      ></a-sphere>
+
+       <a-sphere 
+      color="#F60037"
+      position="0.7 3 -2.3"
+      opacity=0.7
+      radius=0.04
+      animation="property: object3D.position.y;
+          to: 3.05; 
+          dir: alternate; 
+          dur: 2000; 
+          loop: true"
+      ></a-sphere>
+
+      <a-sphere 
+      color="#0A1CEF"
+      position="0.6 1.8 -2.3"
+      opacity=0.7
+      radius=0.045
+      animation="property: object3D.position.x;
+          to: 0.61; 
+          dir: alternate; 
+          dur: 2000; 
+          loop: true"
+      ></a-sphere>
+
+      <a-sphere 
+      color="#A9B5FA"
+      position="0.4 1.0 -3"
+      opacity=0.5
+      radius=0.25
+      animation="property: object3D.position.x;
+          to:0.41; 
+          dir: alternate; 
+          dur: 3000; 
+          loop: true"
+      ></a-sphere>
+
+      <a-sphere 
+      color="#B3982A"
+      position="0.68 1.0 -3"
+      opacity=0.7
+      radius=0.05
+      animation="property: object3D.position.z;
+          to: -3.05; 
+          dir: alternate; 
+          dur: 6000; 
+          loop: true"
+      ></a-sphere>
+
+      <a-sphere 
+      color="#52C3EB"
+      position="0.3 1.1 -2.8"
+      opacity=0.7
+      radius=0.08
+      animation="property: object3D.position.x;
+          to: 0.31; 
+          dir: alternate; 
+          dur: 4000; 
+          loop: true"
+      ></a-sphere>
+
+      <a-sphere 
+      color="#A3936C"
+      position="0.14 1.2 -2.8"
+      opacity=0.8
+      radius=0.08
+      animation="property: object3D.position.z;
+          to: -2.7; 
+          dir: alternate; 
+          dur: 2000; 
+          loop: true"
+      ></a-sphere>
+
+      <a-sphere 
+      color="#B90018"
+      position="0.40 1.22 -2.8"
+      opacity=0.8
+      radius=0.04
+      animation="property: object3D.position.x;
+          to: 0.41; 
+          dir: alternate; 
+          dur: 2000; 
+          loop: true"
+      ></a-sphere>
+
+      <a-sphere 
+      color="#090A0A"
+      position="0.48 1.22 -2.8"
+      opacity=0.8
+      radius=0.02
+      animation="property: object3D.position.y;
+          to: 1.25; 
+          dir: alternate; 
+          dur: 5000; 
+          loop: true"
+      ></a-sphere>
+
+      <a-sphere 
+      color="#E1CB15"
+      position="0.25 0.72 -2.8"
+      opacity=0.8
+      radius=0.04
+      animation="property: object3D.position.y;
+          to: 0.74; 
+          dir: alternate; 
+          dur: 2000; 
+          loop: true"
+      ></a-sphere>
+
+      <a-sphere 
+      color="#B50C32"
+      position="0.16 0.56 -2.8"
+      opacity=0.8
+      radius=0.06
+      animation="property: object3D.position.z;
+          to: -2.7; 
+          dir: alternate; 
+          dur: 5000; 
+          loop: true"
+      ></a-sphere>
+
+      <a-sphere 
+      color="#E89714"
+      position="-0.4 1 -2.8"
+      opacity=2
+      radius=0.06
+      animation="property: object3D.position.z;
+          to: -2.7; 
+          dir: alternate; 
+          dur: 2000; 
+          loop: true"
+      ></a-sphere>
+
+      <a-sphere 
+      color="#B13E22"
+      position="-0.75 1.8 -2.8"
+      opacity=0.7
+      radius=0.1
+      animation="property: object3D.position.z;
+          to: -2.85; 
+          dir: alternate; 
+          dur: 2000; 
+          loop: true"
+      ></a-sphere>
+
+      <a-sphere 
+      color="#C8971F"
+      position="-0.8 1.9 -2.6"
+      opacity=0.7
+      radius=0.1
+      animation="property: object3D.position.z;
+          to: -2.7; 
+          dir: alternate; 
+          dur: 2000; 
+          loop: true"
+      ></a-sphere>
+
+      <a-sphere 
+      color="#9693DC"
+      position="-1.1 2.1 -2.6"
+      opacity=0.9
+      radius=0.14
+      animation="property: object3D.position.z;
+          to: -2.4; 
+          dir: alternate; 
+          dur: 2000; 
+          loop: true"
+      ></a-sphere>
+
+      <a-sphere 
+      color="#02070A"
+      position="-1 2.12 -2.5"
+      opacity=0.9
+      radius=0.04
+      animation="property: object3D.position.x;
+          to: -0.90; 
+          dir: alternate; 
+          dur: 3000; 
+          loop: true"
+      ></a-sphere>
+
+      <a-sphere 
+      color="#F9F02B"
+      position="-1 1.8 -2.5"
+      opacity=0.4
+      radius=0.1
+      animation="property: object3D.position.z;
+          to: -2.56; 
+          dir: alternate; 
+          dur: 3000; 
+          loop: true"
+      ></a-sphere>
+
+      <a-sphere 
+      color="#BC0029"
+      position="-0.95 1.73 -2.7"
+      opacity=0.8
+      radius=0.1
+      animation="property: object3D.position.x;
+          to: -0.94; 
+          dir: alternate; 
+          dur: 2000; 
+          loop: true"
+      ></a-sphere>
+
+      <a-sphere 
+      color="#653320"
+      position="-0.8 1.7 -2.7"
+      opacity=0.8
+      radius=0.1
+      animation="property: object3D.position.z;
+          to: -2.6; 
+          dir: alternate; 
+          dur: 2000; 
+          loop: true"
+      ></a-sphere>
+
+       <a-sphere 
+      color="#EB6FEC"
+      position="-1 3 -2.7"
+      opacity=3
+      radius=0.1
+      animation="property: object3D.position.y;
+          to:3.1; 
+          dir: alternate; 
+          dur: 2000; 
+          loop: true"
+      ></a-sphere>
+
+      <a-sphere 
+      color="#E2D52D"
+      position="-1.1 3.3 -2.7"
+      opacity=3
+      radius=0.05
+      animation="property: object3D.position.z;
+          to: -2.75; 
+          dir: alternate; 
+          dur: 2000; 
+          loop: true"
+      ></a-sphere>
+
+      <a-sphere 
+      color="#1165DE"
+      position="-0.9 1 -2.7"
+      opacity=2
+      radius=0.1
+      animation="property: object3D.position.z;
+          to: -2.6; 
+          dir: alternate; 
+          dur: 2000; 
+          loop: true"
+      ></a-sphere>
+
+            <a-sphere 
+      color="#F185AC"
+      position="-1 1.2 -2.7"
+      opacity=2
+      radius=0.04
+      animation="property: object3D.position.z;
+          to: -2.6; 
+          dir: alternate; 
+          dur: 10000; 
+          loop: true"
+      ></a-sphere>
+
+      <a-sphere 
+      color="#647923"
+      position="-1.1 0.8 -2.7"
+      opacity=2
+      radius=0.04
+      animation="property: object3D.position.x;
+          to: -1; 
+          dir: alternate; 
+          dur: 5000; 
+          loop: true"
+      ></a-sphere>
+
+            <a-sphere 
+      color="#040901"
+      position="-1.06 0.83 -2.6"
+      opacity=2
+      radius=0.035
+      animation="property: object3D.position.y;
+          to: 0.84; 
+          dir: alternate; 
+          dur: 2000; 
+          loop: true"
+      ></a-sphere>
+      
+      </a-scene>
+  </body>
+</html>
